@@ -27,5 +27,7 @@ the T-Rex to the ground.
 ## Author
 
 Alexandre dos Santos Gualberto
+
 [Pedro Malandrin Klesse](https://www.github.com/Klesse)
+
 Sara Ferreira
