@@ -1,0 +1,18 @@
+start:
+MOV P1, #1000B
+MOV P0, #11111000B ; 7
+CALL delay
+MOV P1, #0100B
+MOV P0, #10010000B ; 9
+CALL delay
+MOV P1, #0010B
+MOV P0, #11000000B ; 0
+CALL delay
+MOV P1, #0001B
+MOV P0, #10000000B ; 8
+CALL delay
+JMP start
+delay:
+MOV R0, #2
+DJNZ R0, $
+RET
